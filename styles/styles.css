@@ -524,10 +524,6 @@ section {
   padding-bottom: 1rem;
 }
 
-.contact-form-default{
-  display: none;
-}
-
 .contact-content-con {
   display: flex;
   padding-top: 3.5rem;
@@ -966,6 +962,3 @@ section {
 }
 
 /*# sourceMappingURL=styles.css.map */
-.contact-form-default{
-  display: none;
-}
