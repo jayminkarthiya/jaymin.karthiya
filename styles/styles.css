@@ -961,6 +961,10 @@ section {
   }
 }
 
+.contact-form-default{
+  display: none;
+}
+
 /*# sourceMappingURL=styles.css.map */
 .contact-form-default{
   display: none;
