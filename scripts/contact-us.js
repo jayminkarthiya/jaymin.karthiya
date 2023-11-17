@@ -1,7 +1,7 @@
-const nameField = document.querySelector(".contact-container #fullname");
-const emailField = document.querySelector(".contact-container #email");
-const messageField = document.querySelector(".contact-container #message");
-const sendBtn = document.querySelector(".contact-container .btn-container");
+const nameField = document.querySelector(".contact-container #ContactForm1_contact-form-name");
+const emailField = document.querySelector(".contact-container #ContactForm1_contact-form-email");
+const messageField = document.querySelector(".contact-container #ContactForm1_contact-form-email-message");
+const sendBtn = document.querySelector(".contact-container #ContactForm1_contact-form-submit");
 const errorMessage = document.querySelector(
   ".contact-container .error-message"
 );
@@ -35,3 +35,9 @@ emailField.addEventListener("focus", () => {
 messageField.addEventListener("focus", () => {
   errorMessage.textContent = "";
 });
+
+function sendMail(){
+    $(document).ready(function(){
+        $("#ContactForm1_contact-form-submit").trigger("click");
+    });
+}
