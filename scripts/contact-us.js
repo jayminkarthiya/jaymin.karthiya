@@ -3,7 +3,8 @@ const emailField = document.querySelector(".contact-container #ContactForm1_cont
 const messageField = document.querySelector(".contact-container #ContactForm1_contact-form-email-message");
 const sendBtn = document.querySelector(".contact-container #ContactForm1_contact-form-submit");
 const errorMessage = document.querySelector(
-  ".contact-container .error-message"
+  ".contact-form-error-message"
+  // ".contact-container .error-message"
 );
 
 const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
@@ -36,8 +37,8 @@ messageField.addEventListener("focus", () => {
   errorMessage.textContent = "";
 });
 
-function sendMail(){
-    $(document).ready(function(){
-        $("#ContactForm1_contact-form-submit").trigger("click");
-    });
+function sendMail() {
+  $(document).ready(function () {
+    $("#ContactForm1_contact-form-submit").trigger("click");
+  });
 }
