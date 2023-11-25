@@ -702,8 +702,8 @@ section {
   justify-content: flex-start;
 }
 
-.contact-form-default {
-  display: none;
+.contact-form-widget {
+  max-width: 100% !important;
 }
 
 /*Independed components*/
